@@ -1,0 +1,1 @@
+This is a unit project within the Odin Project to practice HTML and CSS skills, including using the inspection tool to break down what's happening on another site.
