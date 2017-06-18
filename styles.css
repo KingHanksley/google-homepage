@@ -1,4 +1,95 @@
-img {
+* {
+    font-family: arial, sans-serif;
+    color: hsl(0,0%,30%)
+}
+
+
+.sign-in{
+    background: rgb(74, 131,245);
+    font-size: 1.9ex;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 30px;
+    width: 65px;
+}
+
+.search-buttons {
+    width = 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.search {
+    right-margin: 20px;
+    padding: 12px 17px;
+    background: rgb(240,240,240);
+    color: rgb(120,120,120);
+    font-size: 1.6ex;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 2px;
+    display: inline-block;
+}
+
+
+
+.search-bar {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    height: 38px;
+    width: 500px;
+    box-shadow: 1px;
+}
+
+.topbar{
+    height: 20px;
+    position: relative;
+    margin-top: 15px;
+    float: right;
+    width: 100%
+}
+
+.topbar li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 1.6ex;
+}
+
+.topbar li:hover {
+    text-decoration: underline;
+}
+
+.topbar ul {
+    float: right;
+}
+
+#nine-grid {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: relative;
+    top: 9px;
+}
+
+#nine-grid:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#center {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    display: inline-block;
+}
+
+#center img {
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
@@ -9,4 +100,9 @@ img {
     border-left-style: solid;
     height: 200px;
     width: 500px;
+    display: block;
+    margin: auto;
 }
+
+
+
